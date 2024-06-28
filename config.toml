@@ -1,0 +1,118 @@
+## Core Configurations
+baseURL = "https://arkmyst.github.io/"
+languageCode = "en-US"
+title = "Asrar Syed | About Me"
+theme = "awesome-identity"
+
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
+# Make .Summary and .WordCount behave correctly for CJK languages
+hasCJKLanguage = true
+PygmentsCodeFences = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+## Heading render hooks / Allow HTML in MD
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+## Crisp Configurations
+[params.crisp]
+  websiteId = "265ed89c-6f88-4c43-b0d2-5bcc90351c09"
+#   # Change the chatbox color theme
+#   color = "red"
+#   # Reverse the chatbox position
+#   reversePosition = false
+#   # Hide chatbox on mobile devices
+#   hideOnMobile = false
+#   # Hide chatbox on support away
+#   hideOnAway = false
+#   # Hide chatbox on vacation
+#   hideVacation = false
+
+## Meta Configurations (HTTP Meta tags & OpenGraph)
+# [params.meta]
+#   description = ""
+#   keywords = ""
+#   images = [ "" ]
+
+# [params.meta]
+#   description = "DevOps Engineer at Dunamu."
+#   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, infrastructure, hacker, engineer, developer, architect"
+#   images = [ "/images/profile.jpg" ]
+
+# [params.meta]
+#   description = "Martin Löper is a cloud solutions architect working for the start-up company Nesto based in Karlsruhe. This is the official profile."
+#   keywords = "martin löper, cloud solutions architect, profile, about me, nesto, martin, löper, loeper, john, identity, id, bio, my identity, webpage, website"
+
+## Profile Configurations
+[params.profile]
+  portrait = "luffy.jpeg"
+#   portrait = "profile.jpg"
+  firstname = "Asrar"
+  lastname = "Syed"
+  title = "Software Developer · CS Undergrad @ GSU"
+  bio = """ insert -> 50 word summary rant about myself.. """
+
+## Contacts Configurations
+[params.contacts]
+  github = "arkmyst"
+  linkedin = "asrarsyed"
+  leetcode = "arkmyst"
+#   gitlab = ""
+  devto = ""
+  hackerrank = ""
+#   bitbucket = ""
+#   stackoverflow = ""
+#   keybase = ""
+  email = "01asrar.syed@gmail.com"
+#   cv = ""
+#   twitter = ""
+#   facebook = ""
+#   instagram = ""
+#   medium = ""
+
+## Actions Configurations
+[params.actions.resume]
+  name = "Review my Resume"
+  url = "resume.pdf"
+
+## Footer Configurations
+[params.footer]
+  # copyright = "© 2024 [Asrar Syed](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Link Tree]() · Powered by [Hugo](https://gohugo.io/) & [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity)"
+  copyright = "© 2024 [Asrar Syed](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Link Tree 🌳](https://linktr.ee/arkmyst)"
+  poweredBy = false
+
+# # Google Analytics tracking ID
+# googleAnalytics = ""
+
+# ## Privacy Configurations (GDPR)
+[privacy]
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+    # Make sure the users’ IP addresses are anonymized within Google Analytics
+    anonymizeIP = true
+    # Make the GA templates respect the “Do Not Track” HTTP header
+    respectDoNotTrack = true
+    # Disable the use of Cookies and use Session Storage to Store the GA Client ID
+    useSessionStorage = false
