@@ -1,5 +1,5 @@
 ## Core Configurations
-baseURL = "https://arkmyst.github.io/"
+baseURL = "https://asrarsyed.github.io/"
 languageCode = "en-US"
 title = "Asrar Syed | About Me"
 theme = "awesome-identity"
@@ -25,57 +25,54 @@ enableRobotsTXT = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.highlight]
+      guessSyntax = true
+      style = "autumn"
 
 ## Crisp Configurations
 [params.crisp]
   websiteId = "265ed89c-6f88-4c43-b0d2-5bcc90351c09"
-#   # Change the chatbox color theme
-#   color = "red"
-#   # Reverse the chatbox position
-#   reversePosition = false
-#   # Hide chatbox on mobile devices
-#   hideOnMobile = false
-#   # Hide chatbox on support away
-#   hideOnAway = false
-#   # Hide chatbox on vacation
-#   hideVacation = false
+  # Change the chatbox color theme
+  color = "red"
+  # Reverse the chatbox position
+  reversePosition = false
+  # Hide chatbox on mobile devices
+  hideOnMobile = false
+  # Hide chatbox on support away
+  hideOnAway = false
+  # Hide chatbox on vacation
+  hideVacation = false
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
-# [params.meta]
-#   description = ""
-#   keywords = ""
+[params.meta]
+  description = "Asrar Syed is computer science undergraduate student at GSU. This is the official profile."
+  keywords = "asrarsyed, as, asrar syed, asrar, syed, profile, about me, identity, id, bio, my identity, webpage, website, student, software, developer, engineer, programmer, hacker, architect"
 #   images = [ "" ]
-
-# [params.meta]
-#   description = "DevOps Engineer at Dunamu."
-#   keywords = "posquit0, bj, bj.park, byungjin, byungjinpark, sre, devops, backend, infrastructure, hacker, engineer, developer, architect"
-#   images = [ "/images/profile.jpg" ]
-
-# [params.meta]
-#   description = "Martin Löper is a cloud solutions architect working for the start-up company Nesto based in Karlsruhe. This is the official profile."
-#   keywords = "martin löper, cloud solutions architect, profile, about me, nesto, martin, löper, loeper, john, identity, id, bio, my identity, webpage, website"
 
 ## Profile Configurations
 [params.profile]
   portrait = "luffy.jpeg"
-#   portrait = "profile.jpg"
-  firstname = "Asrar"
+  firstname = " Asrar"
   lastname = "Syed"
   title = "Software Developer · CS Undergrad @ GSU"
-  bio = """ insert -> 50 word summary rant about myself.. """
+  bio = """
+An Computer Science student with a **passion** for software development, machine learning and cybersecurity.
+
+Eager to **innovate** and **solve** complex problems through code. Always **learning** and **exploring** new technologies to create efficient, impactful solutions. **Let's build the future together!**
+        """
 
 ## Contacts Configurations
 [params.contacts]
-  github = "arkmyst"
-  linkedin = "asrarsyed"
-  leetcode = "arkmyst"
-#   gitlab = ""
-  devto = ""
-  hackerrank = ""
+  github = "asrarsyed"
+#   gitlab = "asrarsyed"
 #   bitbucket = ""
+  linkedin = "asrarsyed"
+  leetcode = "asrarsyed"
+  devto = "asrarsyed"
+  hackerrank = "asrarsyed"
 #   stackoverflow = ""
 #   keybase = ""
-  email = "01asrar.syed@gmail.com"
+  email = "01asrarsyed@gmail.com"
 #   cv = ""
 #   twitter = ""
 #   facebook = ""
@@ -83,14 +80,15 @@ enableRobotsTXT = true
 #   medium = ""
 
 ## Actions Configurations
-[params.actions.resume]
-  name = "Review my Resume"
-  url = "resume.pdf"
+[params.actions]
+#   0 = { url = "", name = "Buy me Coffee" }
+  1 = { url = "resume.pdf", name = "Review my Resume" }
+#   2 = { url = "", name = "Ask me Anything" }
 
 ## Footer Configurations
 [params.footer]
   # copyright = "© 2024 [Asrar Syed](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Link Tree]() · Powered by [Hugo](https://gohugo.io/) & [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity)"
-  copyright = "© 2024 [Asrar Syed](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Link Tree 🌳](https://linktr.ee/arkmyst)"
+  copyright = "**© 2024 [Asrar Syed](https://creativecommons.org/licenses/by-nc-sa/4.0/) · [Link Tree 🌳](https://linktr.ee/asrarsyed)**"
   poweredBy = false
 
 # # Google Analytics tracking ID
